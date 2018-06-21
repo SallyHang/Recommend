@@ -10,8 +10,6 @@ from surprise import SVD
 import os
 from surprise import Dataset
 from surprise import dataset
-import pickle
-import pprint
 
 
 def get_top_n(predictions, n=10):
