@@ -49,7 +49,7 @@ def get_top_n(predictions, n=10):
 # 加载数据集
 
 reader = dataset.Reader(line_format='user item rating', sep=' ')
-data = Dataset.load_from_file('myrec3.txt', reader)
+data = Dataset.load_from_file('myrec.txt', reader)
 trainset = data.build_full_trainset()
 
 # 加载算法，训练数据
